@@ -1,4 +1,10 @@
 import App from "./App";
 import { render } from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 
-render(<App />, document.getElementById("root"));
+render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
