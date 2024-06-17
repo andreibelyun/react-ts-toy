@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Link } from "react-router-dom";
 import { useTheme } from "./theme/useTheme";
 import { Route, Routes } from "react-router-dom";
+import { classNames } from "./helpers/classNames/classNames";
 import { HomePageLazy } from "./pages/HomePage/HomePage.lazy";
 import { AboutPageLazy } from "./pages/AboutPage/AboutPage.lazy";
 
@@ -10,7 +11,7 @@ const App = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className={`app ${theme}`}>
+    <div className={classNames("app", [theme])}>
       <header>
         <button onClick={toggleTheme}>Toggle theme</button>
         <br />
