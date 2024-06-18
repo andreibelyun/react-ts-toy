@@ -5,11 +5,10 @@ import { useTheme } from "app/providers/ThemeProvider";
 import { classNames } from "shared/lib/classNames/classNames";
 
 const App = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   return (
     <div className={classNames("app", [theme])}>
-      <button onClick={toggleTheme}>Toggle theme</button>
       <NavBar />
       <AppRouter />
     </div>

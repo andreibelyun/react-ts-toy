@@ -1,0 +1,8 @@
+.themeSwitcher {
+  --icon-color: #efefb6;
+
+  svg > path {
+    fill: var(--icon-color);
+    stroke: var(--icon-color);
+  }
+}
