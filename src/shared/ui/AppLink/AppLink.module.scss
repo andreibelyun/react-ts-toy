@@ -1,0 +1,13 @@
+.appLink {
+  color: #5a0e44;
+  font: var(--font-l);
+  text-decoration: none;
+
+  &.primary {
+    color: var(--inverted-primary-color);
+  }
+
+  &.secondary {
+    color: var(--inverted-secondary-color);
+  }
+}
