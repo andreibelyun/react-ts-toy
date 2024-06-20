@@ -1,6 +1,7 @@
 import { FC, useState } from "react";
 import st from "./SideBar.module.scss";
 import IconMenu from "shared/assets/icons/menu.svg";
+import { LangSwitcher } from "widgets/LangSwitcher";
 import { ThemeSwitcher } from "widgets/ThemeSwitcher";
 import { classNames } from "shared/lib/classNames/classNames";
 import { Button, ButtonTheme } from "shared/ui/Button/Button";
@@ -32,6 +33,7 @@ export const SideBar: FC<SideBarProps> = ({ className }) => {
 
       <div className={st.switchers}>
         <ThemeSwitcher />
+        {!collapsed && <LangSwitcher />}
       </div>
     </div>
   );
