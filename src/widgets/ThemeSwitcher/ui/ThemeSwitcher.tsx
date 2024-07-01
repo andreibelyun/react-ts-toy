@@ -1,12 +1,12 @@
-import st from "./ThemeSwitcher.module.scss";
-import IconSun from "shared/assets/icons/sun.svg";
-import IconMoon from "shared/assets/icons/moon.svg";
+import st from './ThemeSwitcher.module.scss';
+import IconSun from 'shared/assets/icons/sun.svg';
+import IconMoon from 'shared/assets/icons/moon.svg';
 
-import { FC } from "react";
-import { useTheme } from "app/providers/ThemeProvider";
-import { classNames } from "shared/lib/classNames/classNames";
-import { Button, ButtonTheme } from "shared/ui/Button/Button";
-import { Theme } from "app/providers/ThemeProvider/lib/ThemeContext";
+import { FC } from 'react';
+import { useTheme } from 'app/providers/ThemeProvider';
+import { classNames } from 'shared/lib/classNames/classNames';
+import { Button, ButtonTheme } from 'shared/ui/Button/Button';
+import { Theme } from 'app/providers/ThemeProvider/lib/ThemeContext';
 
 interface ThemeSwitcherProps {
   className?: string;

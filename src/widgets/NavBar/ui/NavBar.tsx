@@ -1,7 +1,7 @@
-import st from "./NavBar.module.scss";
-import { AppLink, AppLinkTheme } from "shared/ui/AppLink/AppLink";
-import { classNames } from "shared/lib/classNames/classNames";
-import { useTranslation } from "react-i18next";
+import st from './NavBar.module.scss';
+import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
+import { classNames } from 'shared/lib/classNames/classNames';
+import { useTranslation } from 'react-i18next';
 
 type NavBarItem = {
   path: string;
@@ -9,8 +9,8 @@ type NavBarItem = {
 };
 
 const navBarConfig: NavBarItem[] = [
-  { path: "/", textKey: "home" },
-  { path: "/about", textKey: "about" },
+  { path: '/', textKey: 'home' },
+  { path: '/about', textKey: 'about' },
 ];
 
 export function NavBar() {

@@ -1,10 +1,10 @@
-import { FC, useState } from "react";
-import st from "./SideBar.module.scss";
-import IconMenu from "shared/assets/icons/menu.svg";
-import { LangSwitcher } from "widgets/LangSwitcher";
-import { ThemeSwitcher } from "widgets/ThemeSwitcher";
-import { classNames } from "shared/lib/classNames/classNames";
-import { Button, ButtonTheme } from "shared/ui/Button/Button";
+import { FC, useState } from 'react';
+import st from './SideBar.module.scss';
+import IconMenu from 'shared/assets/icons/menu.svg';
+import { LangSwitcher } from 'widgets/LangSwitcher';
+import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
+import { classNames } from 'shared/lib/classNames/classNames';
+import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 
 interface SideBarProps {
   className?: string;
