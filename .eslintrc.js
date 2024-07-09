@@ -33,6 +33,13 @@ module.exports = {
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', 'tsx'] }],
     'i18next/no-literal-string': [1, { markupOnly: true }],
     'max-len': [2, { ignoreComments: true }],
+    'arrow-body-style': 0,
+    'react/require-default-props': [
+      2,
+      {
+        classes: 'ignore',
+      },
+    ],
   },
   globals: {
     React: true,
