@@ -34,12 +34,8 @@ module.exports = {
     'i18next/no-literal-string': [1, { markupOnly: true }],
     'max-len': [2, { ignoreComments: true }],
     'arrow-body-style': 0,
-    'react/require-default-props': [
-      2,
-      {
-        classes: 'ignore',
-      },
-    ],
+    'react/jsx-props-no-spreading': 0,
+    'react/require-default-props': 0,
   },
   globals: {
     React: true,
