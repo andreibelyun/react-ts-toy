@@ -2,5 +2,7 @@
   "langSwitcher": "English",
   "home": "Home",
   "about": "About",
-  "pageNotFound": "Page not found"
+  "pageNotFound": "Page not found",
+  "unknownError": "An unexpected error occurred",
+  "reloadPage": "Refresh the page"
 }

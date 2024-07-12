@@ -1,0 +1,21 @@
+.pageError {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  font: var(--font-m);
+}
+
+.reloadBtn {
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
